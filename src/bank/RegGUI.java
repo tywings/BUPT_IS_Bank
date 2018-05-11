@@ -7,10 +7,8 @@ import java.awt.Font;
 import java.awt.Color;
 import javax.swing.JTextField;
 import java.awt.SystemColor;
-import java.awt.Choice;
 import javax.swing.JComboBox;
 import javax.swing.DefaultComboBoxModel;
-import java.awt.Button;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -87,7 +85,7 @@ public class RegGUI {
 		
 		JTextPane txtpnName = new JTextPane();
 		txtpnName.setEditable(false);
-		txtpnName.setFont(new Font("����", Font.PLAIN, 16));
+		txtpnName.setFont(new Font("锟斤拷锟斤拷", Font.PLAIN, 16));
 		txtpnName.setBackground(new Color(240, 240, 240));
 		txtpnName.setText("Name\uFF1A");
 		txtpnName.setBounds(60, 100, 75, 30);
@@ -96,7 +94,7 @@ public class RegGUI {
 		JTextPane txtpnAddress = new JTextPane();
 		txtpnAddress.setEditable(false);
 		txtpnAddress.setText("Address\uFF1A");
-		txtpnAddress.setFont(new Font("����", Font.PLAIN, 16));
+		txtpnAddress.setFont(new Font("锟斤拷锟斤拷", Font.PLAIN, 16));
 		txtpnAddress.setBackground(SystemColor.menu);
 		txtpnAddress.setBounds(60, 150, 75, 30);
 		frmRegister.getContentPane().add(txtpnAddress);
@@ -104,7 +102,7 @@ public class RegGUI {
 		JTextPane txtpnBirthday = new JTextPane();
 		txtpnBirthday.setEditable(false);
 		txtpnBirthday.setText("Birthday\uFF1A");
-		txtpnBirthday.setFont(new Font("����", Font.PLAIN, 16));
+		txtpnBirthday.setFont(new Font("锟斤拷锟斤拷", Font.PLAIN, 16));
 		txtpnBirthday.setBackground(SystemColor.menu);
 		txtpnBirthday.setBounds(60, 200, 75, 30);
 		frmRegister.getContentPane().add(txtpnBirthday);
@@ -138,7 +136,7 @@ public class RegGUI {
 		txtpnYear.setForeground(UIManager.getColor("Button.disabledForeground"));
 		txtpnYear.setEditable(false);
 		txtpnYear.setText("Year\uFF1A");
-		txtpnYear.setFont(new Font("����", Font.PLAIN, 16));
+		txtpnYear.setFont(new Font("锟斤拷锟斤拷", Font.PLAIN, 16));
 		txtpnYear.setBackground(SystemColor.menu);
 		txtpnYear.setBounds(145, 200, 46, 30);
 		frmRegister.getContentPane().add(txtpnYear);
@@ -147,7 +145,7 @@ public class RegGUI {
 		txtpnMonth.setForeground(UIManager.getColor("Button.disabledForeground"));
 		txtpnMonth.setEditable(false);
 		txtpnMonth.setText("Month\uFF1A");
-		txtpnMonth.setFont(new Font("����", Font.PLAIN, 16));
+		txtpnMonth.setFont(new Font("锟斤拷锟斤拷", Font.PLAIN, 16));
 		txtpnMonth.setBackground(SystemColor.menu);
 		txtpnMonth.setBounds(145, 250, 55, 30);
 		frmRegister.getContentPane().add(txtpnMonth);
@@ -156,7 +154,7 @@ public class RegGUI {
 		txtpnDay.setForeground(UIManager.getColor("Button.disabledForeground"));
 		txtpnDay.setEditable(false);
 		txtpnDay.setText("Day\uFF1A");
-		txtpnDay.setFont(new Font("����", Font.PLAIN, 16));
+		txtpnDay.setFont(new Font("锟斤拷锟斤拷", Font.PLAIN, 16));
 		txtpnDay.setBackground(SystemColor.menu);
 		txtpnDay.setBounds(145, 300, 46, 30);
 		frmRegister.getContentPane().add(txtpnDay);
@@ -164,7 +162,7 @@ public class RegGUI {
 		JButton btnSubmit = new JButton("Submit");
 		btnSubmit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				//ȷ����ť�������жϴ�ֵ��arraylistд��׶�
+				//确锟斤拷锟斤拷钮锟斤拷锟斤拷锟斤拷锟叫断达拷值锟斤拷arraylist写锟斤拷锥锟�
 				submit(Acc);
 			}
 		});
@@ -174,7 +172,7 @@ public class RegGUI {
 		JButton btnDiscard = new JButton("Discard");
 		btnDiscard.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				//�ر�Register����
+				//锟截憋拷Register锟斤拷锟斤拷
 				frmRegister.dispose();
 			}
 		});
@@ -183,7 +181,7 @@ public class RegGUI {
 		
 		JTextPane textAccType = new JTextPane();
 		textAccType.setText("Acc Type\uFF1A");
-		textAccType.setFont(new Font("����", Font.PLAIN, 16));
+		textAccType.setFont(new Font("锟斤拷锟斤拷", Font.PLAIN, 16));
 		textAccType.setEditable(false);
 		textAccType.setBackground(SystemColor.menu);
 		textAccType.setBounds(411, 96, 89, 44);
@@ -200,7 +198,7 @@ public class RegGUI {
 		
 		JTextPane textPwdFir = new JTextPane();
 		textPwdFir.setText("Password\uFF1A");
-		textPwdFir.setFont(new Font("����", Font.PLAIN, 16));
+		textPwdFir.setFont(new Font("锟斤拷锟斤拷", Font.PLAIN, 16));
 		textPwdFir.setEditable(false);
 		textPwdFir.setBackground(SystemColor.menu);
 		textPwdFir.setBounds(411, 150, 86, 30);
@@ -208,7 +206,7 @@ public class RegGUI {
 		
 		JTextPane textPwdSec = new JTextPane();
 		textPwdSec.setText("Password\uFF1ARecheck");
-		textPwdSec.setFont(new Font("����", Font.PLAIN, 16));
+		textPwdSec.setFont(new Font("锟斤拷锟斤拷", Font.PLAIN, 16));
 		textPwdSec.setEditable(false);
 		textPwdSec.setBackground(SystemColor.menu);
 		textPwdSec.setBounds(397, 200, 103, 51);
@@ -219,7 +217,7 @@ public class RegGUI {
 		frmRegister.getContentPane().add(PwdSec);
 	}
 	
-	/*̫Զ�˿�����������
+	/*太远锟剿匡拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷
 	 * private JFrame frmRegister;
 	private JTextField textName;
 	private JTextField textAddress;

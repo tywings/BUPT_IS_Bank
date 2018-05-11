@@ -10,8 +10,6 @@ import java.awt.event.ActionEvent;
 import java.awt.Font;
 import javax.swing.JTextPane;
 import java.awt.SystemColor;
-import javax.swing.JFormattedTextField;
-import javax.swing.SwingConstants;
 
 public class ManGUI {
 

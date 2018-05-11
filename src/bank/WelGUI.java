@@ -4,12 +4,6 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import java.awt.BorderLayout;
-import java.awt.FlowLayout;
-import java.awt.GridLayout;
-import java.awt.Component;
-import javax.swing.Box;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
@@ -87,7 +81,7 @@ public class WelGUI {
 		frmBank.getContentPane().setLayout(null);
 		
 		JButton btnLogin = new JButton("Login");
-		btnLogin.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
+		btnLogin.setFont(new Font("ËÎÌå", Font.PLAIN, 15));
 		btnLogin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -99,7 +93,7 @@ public class WelGUI {
 		frmBank.getContentPane().add(btnLogin);
 		
 		JButton btnRegister = new JButton("Register");
-		btnRegister.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
+		btnRegister.setFont(new Font("ËÎÌå", Font.PLAIN, 15));
 		btnRegister.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
@@ -137,7 +131,7 @@ public class WelGUI {
 				
 			}
 		});
-		btnExit.setFont(new Font("å®‹ä½“", Font.PLAIN, 15));
+		btnExit.setFont(new Font("ËÎÌå", Font.PLAIN, 15));
 		btnExit.setBounds(70, 304, 130, 50);
 		frmBank.getContentPane().add(btnExit);
 		
